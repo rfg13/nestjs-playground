@@ -1,0 +1,13 @@
+### Create new music
+POST http://localhost:3000/music
+content-type: application/json
+
+{
+    "content": "{AC/DC": "Shoot to thrill}"
+} 
+
+### Retrieve a especific music
+GET http://localhost:3000/music/131313
+
+### List all music
+GET http://localhost:3000/music
